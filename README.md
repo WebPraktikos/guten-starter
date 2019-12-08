@@ -38,10 +38,10 @@ Todo List
 License
 ---------
 
-GNU General Public License version 2 or later (GPL-2.0-or-later)
+GNU General Public License version 2 or later (GPL-2.0-or-later)  
 https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
-### Important Notes
+#### Important Parts
 
 **You are free to:**
 
