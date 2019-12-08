@@ -8,8 +8,8 @@
     "serve": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "WebPraktikos",
+  "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-react-jsx": "^7.7.0",
