@@ -1,7 +1,7 @@
 guten-starter
 ---------
 
-Gutenstarter is a small standalone [Gutenberg editor](https://github.com/WordPress/gutenberg) JavaScript starter app. The inserted content is outputted to the console by using `console.log(blocks)`. Save that logged array somewhere in your app maybe.
+Gutenstarter is a small standalone [Gutenberg editor](https://github.com/WordPress/gutenberg) JavaScript starter app. The inserted content is outputted to the console by using `console.log(blocks)`. You can save that logged array and then magic can start.
 
 **What are other standalone Gutenberg editor solutions?**  
 https://github.com/front/g-editor  
