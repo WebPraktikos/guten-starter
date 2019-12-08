@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "checkJs": true,
+    "moduleResolution": "node",
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*.jsx?"]
+}

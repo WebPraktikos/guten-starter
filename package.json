@@ -1,0 +1,36 @@
+{
+  "name": "gutenberg-to-html",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "serve": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.7.0",
+    "@babel/preset-env": "^7.5.5",
+    "@wordpress/babel-plugin-import-jsx-pragma": "^2.3.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "stringify-object": "^3.3.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^3.0.0",
+    "@wordpress/block-library": "^2.7.0",
+    "@wordpress/element": "^2.6.0",
+    "@wordpress/format-library": "^1.7.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
