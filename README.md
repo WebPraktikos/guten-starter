@@ -28,7 +28,7 @@ Start the development server:
 npm run serve
 ```
 
-Todo List
+Todo
 ---------
 
 - margins and spacing
