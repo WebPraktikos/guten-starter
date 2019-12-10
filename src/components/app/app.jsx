@@ -8,15 +8,9 @@ import { Popover } from "@wordpress/components";
 import { useState, useEffect } from "@wordpress/element";
 import { registerCoreBlocks } from "@wordpress/block-library";
 
-/**
- * begin: CSS Imports
- */
 import "../../assets/styles/built-in/style.scss";
 import "@wordpress/components/build-style/style.css";
 import "@wordpress/block-editor/build-style/style.css";
-/*
- * end: CSS Imports
- **/
 
 function App() {
   const [blocks, updateBlocks] = useState([]);
