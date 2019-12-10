@@ -9,7 +9,7 @@ import { Popover } from "@wordpress/components";
 import { useState, useEffect } from "@wordpress/element";
 import { registerCoreBlocks } from "@wordpress/block-library";
 
-import "../../assets/styles/built-in/style.scss";
+import "../../assets/style.scss";
 import "@wordpress/components/build-style/style.css";
 import "@wordpress/block-editor/build-style/style.css";
 
