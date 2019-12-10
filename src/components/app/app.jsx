@@ -4,8 +4,8 @@ import {
   WritingFlow,
   ObserveTyping
 } from "@wordpress/block-editor";
-import { Popover } from '@wordpress/components';
-import { useState } from "@wordpress/element";
+import { Popover } from "@wordpress/components";
+import { useState, useEffect } from "@wordpress/element";
 import { registerCoreBlocks } from "@wordpress/block-library";
 
 /**
@@ -18,12 +18,14 @@ import "@wordpress/block-editor/build-style/style.css";
  * end: CSS Imports
  **/
 
-registerCoreBlocks();
-
 function App() {
   const [blocks, updateBlocks] = useState([]);
 
   console.log(blocks);
+
+  useEffect(() => {
+    registerCoreBlocks();
+  }, []);
 
   return (
     <BlockEditorProvider
