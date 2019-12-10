@@ -2,7 +2,8 @@ import {
   BlockEditorProvider,
   BlockList,
   WritingFlow,
-  ObserveTyping
+  ObserveTyping,
+  BlockEditorKeyboardShortcuts
 } from "@wordpress/block-editor";
 import { Popover } from "@wordpress/components";
 import { useState, useEffect } from "@wordpress/element";
@@ -22,18 +23,23 @@ function App() {
   }, []);
 
   return (
-    <BlockEditorProvider
-      value={blocks}
-      onInput={updateBlocks}
-      onChange={updateBlocks}
-    >
-      <WritingFlow>
-        <ObserveTyping>
-          <BlockList />
-        </ObserveTyping>
-      </WritingFlow>
-      <Popover.Slot />
-    </BlockEditorProvider>
+    <div className="playground">
+      <BlockEditorProvider
+        value={blocks}
+        onInput={updateBlocks}
+        onChange={updateBlocks}
+      >
+        <div className="editor-styles-wrapper">
+          <BlockEditorKeyboardShortcuts />
+          <WritingFlow>
+            <ObserveTyping>
+              <BlockList />
+            </ObserveTyping>
+          </WritingFlow>
+        </div>
+        <Popover.Slot />
+      </BlockEditorProvider>
+    </div>
   );
 }
 
