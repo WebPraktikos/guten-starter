@@ -4,9 +4,8 @@ import {
   WritingFlow,
   ObserveTyping
 } from "@wordpress/block-editor";
-
+import { Popover } from '@wordpress/components';
 import { useState } from "@wordpress/element";
-
 import { registerCoreBlocks } from "@wordpress/block-library";
 
 /**
@@ -37,6 +36,7 @@ function App() {
           <BlockList />
         </ObserveTyping>
       </WritingFlow>
+      <Popover.Slot />
     </BlockEditorProvider>
   );
 }
