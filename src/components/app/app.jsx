@@ -8,14 +8,15 @@ import {
 import { Popover } from "@wordpress/components";
 import { useState, useEffect } from "@wordpress/element";
 import { registerCoreBlocks } from "@wordpress/block-library";
+import "@wordpress/format-library";
 
-import "../../assets/style.scss";
 import "@wordpress/components/build-style/style.css";
 import "@wordpress/block-editor/build-style/style.css";
-import '@wordpress/block-library/build-style/style.css';
-import '@wordpress/block-library/build-style/editor.css';
-import '@wordpress/block-library/build-style/theme.css';
-import '@wordpress/format-library/build-style/style.css';
+import "@wordpress/block-library/build-style/style.css";
+import "@wordpress/block-library/build-style/editor.css";
+import "@wordpress/block-library/build-style/theme.css";
+import "@wordpress/format-library/build-style/style.css";
+import "../../assets/tailwind.css";
 
 function App() {
   const [blocks, updateBlocks] = useState([]);
@@ -27,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <div className="playground">
+    <div className="gutenstarter">
       <BlockEditorProvider
         value={blocks}
         onInput={updateBlocks}

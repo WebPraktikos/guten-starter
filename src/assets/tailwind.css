@@ -1,0 +1,21 @@
+.gutenstarter {
+	padding-top: 30px;
+}
+
+.wp-block {
+  @apply max-w-xl;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-block[data-align="wide"] {
+  max-width: 1100px;
+}
+.wp-block[data-align="full"] {
+  max-width: none;
+}
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;

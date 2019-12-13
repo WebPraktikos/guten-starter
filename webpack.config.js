@@ -29,14 +29,14 @@ module.exports = {
         }
       },
       {
-        test: /\.s?css$/,
+        test: /\.css$/,
         use: [
           // Inject CSS into the DOM
           "style-loader",
           // Translates CSS into CommonJS
           "css-loader",
-          // Transpiles Sass to CSS
-          "sass-loader"
+          // Generates Tailwind CSS
+          "postcss-loader",
         ]
       }
     ]
