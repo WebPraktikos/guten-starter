@@ -1,5 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/app/';
+import { render } from '@wordpress/element';
+import App from "./components/app/";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
