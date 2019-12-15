@@ -31,9 +31,8 @@ npm run serve
 Todo
 ---------
 
-- margins and spacing
-- typography
-- draggable blocks
+- correctly positon dropdown
+- add tailwindcss rich-text plugin
 
 License
 ---------
