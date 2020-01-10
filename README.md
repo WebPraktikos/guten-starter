@@ -3,6 +3,8 @@ guten-starter
 
 Gutenstarter is a small standalone [Gutenberg editor](https://github.com/WordPress/gutenberg) JavaScript starter app. The inserted content is outputted to the console by using `console.log(blocks)`. You can save that logged array and then the magic can start. Note that it uses [Tailwind CSS](https://tailwindcss.com/).
 
+Still an early stage in development. Lacking in basic styling.
+
 **What are other standalone Gutenberg editor solutions?**  
 https://github.com/front/g-editor  
 https://github.com/youknowriad/standalone-gutenberg  
