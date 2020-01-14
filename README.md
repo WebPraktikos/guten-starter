@@ -10,7 +10,7 @@ https://github.com/front/g-editor
 https://github.com/youknowriad/standalone-gutenberg  
 
 **Why am I developing this solution?**  
-Other options are outdated or unclear. My intention with this project is to make a straightforward starter app that will kick-start you into integrating Gutenberg editor into your app.
+Other options are outdated or unclear. My intention with this project is to make a straightforward starter app that will kickstart you into integrating Gutenberg editor into your app.
 
 How to run it
 ---------
