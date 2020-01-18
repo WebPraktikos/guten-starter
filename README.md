@@ -1,4 +1,4 @@
-guten-starter
+Gutenstarter
 ---------
 
 **Attention:** Still an early stage in development. Lacking in basic styling.
