@@ -12,7 +12,7 @@ https://github.com/youknowriad/standalone-gutenberg
 **Why am I developing this solution?**  
 Other options are outdated or unclear. My intention with this project is to make a straightforward starter app that will kickstart you into integrating Gutenberg editor into your app.
 
-How to run it
+Run It
 ---------
 
 Navigate to the base directory:
@@ -30,7 +30,7 @@ Start the development server:
 npm run serve
 ```
 
-Todo
+To-Do
 ---------
 
 - correctly positon dropdown
